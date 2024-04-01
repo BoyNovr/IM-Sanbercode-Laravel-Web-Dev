@@ -1,0 +1,6 @@
+Saya sangat termotivasi untuk mengikuti bootcamp Laravel Web Dev karena saya ingin memperdalam pengetahuan 
+dan keterampilan saya dalam pengembangan web dengan Laravel. Bootcamp ini menawarkan kesempatan untuk belajar dari 
+para ahli industri dan berkolaborasi dengan sesama peserta untuk mengatasi tantangan yang kompleks. 
+Saya berharap setelah mengikuti bootcamp ini, saya akan memiliki pemahaman yang lebih dalam tentang pengembangan web 
+dengan Laravel dan mampu membuat aplikasi web yang lebih kuat dan efisien. Saya juga berharap bootcamp ini akan membuka
+pintu bagi saya untuk mengejar karir pengembangan perangkat lunak.
