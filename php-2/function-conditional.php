@@ -94,20 +94,16 @@ function reverse2($kata1){
     }
     return $tampung;
 }
-function palindrome($kata2){
-    $string=reverse($kata2);
-    return $kata2===$string;
+function palindrome($kata2) {
+    $string = reverse2($kata2);
+    return $kata2 === $string ? "true" : "false";
 }
 
 // Hapus komentar di bawah ini untuk jalankan code
-echo palindrome("civic") ? "true" : "false";
-echo "<br>";
-echo palindrome("nababan") ? "true" : "false";
-echo "<br>";
-echo palindrome("jambaban") ? "true" : "false";
-echo "<br>";
-echo palindrome("racecar") ? "true" : "false";
-echo "<br>";
+echo palindrome("civic") . "<br>";
+echo palindrome("nababan") . "<br>";
+echo palindrome("jambaban") . "<br>";
+echo palindrome("racecar") . "<br>";
 
 
 echo "<h3>Soal No 4 Tentukan Nilai </h3>";
