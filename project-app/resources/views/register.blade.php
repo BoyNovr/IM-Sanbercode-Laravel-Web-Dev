@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        Tugas 1 HTML
-    </title>
-</head>
-<body>
+@extends('layout.master')
+@section('judul')
+Halaman Registrasi
+@endsection
+@section('content')
 <h1>Buat Account Baru!</h1>
 <h2>Sign Up Form</h2>
 <form action="/welcome" method="post">
@@ -33,4 +30,4 @@
 <textarea name="bio" rows="10" cols="30"></textarea><br>
 <input type="submit" name="signup" value="Sign Up">
 </form>
-</html>
+@endsection

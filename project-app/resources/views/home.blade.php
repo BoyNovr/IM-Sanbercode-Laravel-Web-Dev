@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>
-        Tugas 1 HTML
-    </title>
-</head>
-<body>
+@extends('layout.master')
+@section('judul')
+    Halaman Utama
+@endsection
+@section('content')
 <h1>SanberBook</h1>
 <h2>Social Media Developer Santai Berkualitas</h2>
 <p> Belajar dan Berbagi agar hidup ini semakin santai berkualitas</p>
@@ -23,6 +20,5 @@
     <li>Mendaftar di <a href="/register">Form Sign Up</a></li>
     <li>Selesai!</li>
    </ol> 
+@endsection
 
-</body>
-</html>

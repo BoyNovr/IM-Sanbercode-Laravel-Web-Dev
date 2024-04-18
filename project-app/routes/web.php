@@ -17,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [DashboardController::class,'home']);
 Route::get('/register', [DashboardController::class,'register']);
 Route::post('/welcome', [DashboardController::class,'welcome']);
+
+Route::get('/data-table',function(){
+    return view('datatable');
+});
+
+Route::get('/table',function(){
+    return view('table');
+});
